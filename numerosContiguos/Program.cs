@@ -22,7 +22,7 @@ namespace numerosContiguos
 
             for (int x = 0; x < cantidad; x++)
             {
-                a.Add(rnd.Next());
+                a.Add(rnd.Next(-100, 100));
             }
 
             sw.Start();
